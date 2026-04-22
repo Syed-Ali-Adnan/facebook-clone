@@ -65,6 +65,10 @@ box-shadow: 5px 5px 15px gray;
     border-radius: 50px;
     padding: 10px;
 }
+.exit{
+    width: 5px;
+    height: 5px;
+}
 
 
 .main{
@@ -175,4 +179,73 @@ box-shadow: 5px 5px 15px gray;
 }
 .reactions img{
     width: 35px;
+}
+
+/*sign in*/
+
+.signIn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.form p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.form input{
+    border: 1px solid rgb(24, 119, 242);
+    border-radius: 13px;
+    width: 500px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 10px;
+}
+.login{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    width: 500px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 10px;
+}
+.forgot{
+    color: black;
+    border: none;
+    border-radius: 13px;
+    width: 500px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 50px;
+}
+.newAccount{
+    color: rgb(24, 119, 242);
+    background-color: white;
+    border: 1px solid rgb(24, 119, 242);
+    border-radius: 13px;
+    width: 500px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*signup*/
+.formBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.names input{
+    border: 1px solid rgb(24, 119, 242);
+    border-radius: 13px;
+    width: 250px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px;
 }
